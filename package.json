@@ -1,0 +1,31 @@
+{
+  "name": "poc-flexible-web-application-architecture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This project demonstrate a flexible Babel and Webpack based web application architecture.",
+  "author": {
+    "name": "Martin Oppitz",
+    "email": "github@martinoppitz.com",
+    "url": "http://martinoppitz.com"
+  },
+  "scripts": {
+    "reinstall": "npm run remove && npm run update",
+    "remove": "rm -rf node_modules package-lock.json",
+    "serve": "lean serve --framework preact",
+    "start": "npm run serve -- --open",
+    "update": "npm install && npm update"
+  },
+  "dependencies": {
+    "@leanup/features": "^1.0.0-rc.223",
+    "@leanup/material-preact": "^1.0.0-rc.217",
+    "navigo": "^7.1.2",
+    "preact": "^10.4.1",
+    "register-service-worker": "^1.7.1"
+  },
+  "devDependencies": {
+    "@leanup/cli": "1.0.0-rc.228",
+    "@leanup/cli-addons": "^1.0.0-rc.232",
+    "@leanup/cli-preact": "^1.0.0-rc.204",
+    "typescript": "~3.8.3"
+  }
+}

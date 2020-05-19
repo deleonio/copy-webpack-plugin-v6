@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "pretty": true,
+    "target": "esnext",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "lib": ["es2017", "dom"],
+    "types": ["inferno", "mocha", "node", "react", "vue"],
+    "typeRoots": ["node_modules/@types"],
+    "jsx": "preserve",
+    "noUnusedLocals": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*",
+    "node_modules/@leanup/features/**/*",
+    "node_modules/@leanup/material/**/*",
+    "node_modules/inferno/dist/index.d.ts",
+    "node_modules/preact/src/index.d.ts",
+    "node_modules/vue/types/index.d.ts"
+  ]
+}
