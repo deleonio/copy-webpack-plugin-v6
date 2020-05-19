@@ -12,8 +12,7 @@
     "reinstall": "npm run remove && npm run update",
     "remove": "rm -rf node_modules package-lock.json",
     "serve": "lean serve --framework preact",
-    "start": "npm run serve -- --open",
-    "update": "npm install && npm update"
+    "start": "npm run serve -- --open"
   },
   "dependencies": {
     "@leanup/features": "^1.0.0-rc.223",
@@ -24,8 +23,8 @@
   },
   "devDependencies": {
     "@leanup/cli": "1.0.0-rc.228",
-    "@leanup/cli-addons": "^1.0.0-rc.232",
+    "@leanup/cli-addons": "^1.0.0-rc.233",
     "@leanup/cli-preact": "^1.0.0-rc.204",
-    "typescript": "~3.8.3"
+    "typescript": "^3.9.2"
   }
 }
